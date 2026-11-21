@@ -26,7 +26,7 @@
 ad_traffic_ab_test/
 ├── data/
 │   ├── raw/                      # 原始数据（只读，已通过 .gitignore 忽略上传）
-│   └── processed/                # 清洗后的中间数据
+│   └── processed/                # 清洗后的中间数据（已忽略）
 ├── scripts/                      # 分析代码，按流程编号
 │   ├── 01_read_data.py           # 数据读取与清洗
 │   ├── 02_check_split.py         # 分流校验与样本量敏感性分析
@@ -40,7 +40,6 @@ ad_traffic_ab_test/
 │       ├── hour_conversion_valid.csv
 │       └── sample_size_sensitivity.csv
 ├── reports/
-│   ├── 业务分析报告.md            # 完整的业务分析报告 (Markdown源文件)
-│   └── 业务分析报告.pdf           # 完整的业务分析报告 (PDF导出终版)
+│   └── 业务分析报告.md            # 完整的业务分析报告
 ├── .gitignore                    # Git忽略规则
 └── README.md                     # 项目说明文档
